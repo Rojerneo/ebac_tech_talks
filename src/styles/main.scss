@@ -1,10 +1,16 @@
-@use 'hero';
+@use '_hero';
+@use 'components/_infos-bar';
+@use 'components/_buttons';
+@use '_events';
+@use '_variables';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
+    color: variables.$textPrimary;
 }
 
 .container {
